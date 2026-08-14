@@ -81,3 +81,20 @@ ring.style.top=e.clientY+"px";
 }
 
 });
+// HERO PARALLAX
+
+window.addEventListener("scroll", () => {
+
+  const scrolled = window.scrollY;
+
+  const heroImage =
+    document.querySelector(".hero-image");
+
+  if(heroImage){
+
+    heroImage.style.transform =
+      `translateY(${scrolled * 0.15}px)`;
+
+  }
+
+});
