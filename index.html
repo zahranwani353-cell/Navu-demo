@@ -2,57 +2,794 @@
 <html lang="en">
 
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Navu Beauty</title>
 
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Luxury beauty, makeup artistry and content creation.">
+
+    <title>Navu — Beauty & Makeup Artist</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap"
+          rel="stylesheet">
 
 </head>
 
+
 <body>
 
-<section class="hero">
+    <!-- =========================================
+         PRELOADER
+    ========================================== -->
 
-    <div class="hero-left">
+    <div class="preloader">
 
-        <span class="tag">
-            New Zealand Based Beauty Creator
-        </span>
+        <div class="preloader-inner">
 
-        <h1>
-            BEAUTY <br>
-            THAT GETS <br>
-            REMEMBERED
-        </h1>
+            <span class="preloader-small">
+                BEAUTY / CONTENT / ART
+            </span>
 
-        <p>
-            Beauty Creator • Makeup Artist • Content Creator
-        </p>
-
-        <div class="buttons">
-
-            <button class="primary-btn">
-                Explore Portfolio
-            </button>
-
-            <button class="secondary-btn">
-                Work With Me
-            </button>
+            <span class="preloader-number">
+                0%
+            </span>
 
         </div>
 
     </div>
 
-    <div class="hero-right">
 
-        <img src="hero.jpg" alt="Hero Image">
+    <!-- =========================================
+         CUSTOM CURSOR
+    ========================================== -->
+
+    <div class="cursor-dot"></div>
+    <div class="cursor-ring"></div>
+
+
+    <!-- =========================================
+         NAVIGATION
+    ========================================== -->
+
+    <header class="site-header">
+
+        <nav class="navbar">
+
+            <a href="#home"
+               class="brand-logo">
+
+                NAVU<span>.</span>
+
+            </a>
+
+
+            <div class="nav-links">
+
+                <a href="#work">
+                    Work
+                </a>
+
+                <a href="#about">
+                    About
+                </a>
+
+                <a href="#services">
+                    Services
+                </a>
+
+                <a href="#contact">
+                    Contact
+                </a>
+
+            </div>
+
+
+            <a href="#contact"
+               class="nav-cta">
+
+                Let's Talk
+
+                <span>↗</span>
+
+            </a>
+
+
+            <button class="menu-button"
+                    aria-label="Open Menu">
+
+                <span></span>
+                <span></span>
+
+            </button>
+
+        </nav>
+
+    </header>
+
+
+
+    <!-- =========================================
+         MOBILE MENU
+    ========================================== -->
+
+    <div class="mobile-menu">
+
+        <div class="mobile-menu-inner">
+
+            <a href="#home">
+                Home
+            </a>
+
+            <a href="#work">
+                Work
+            </a>
+
+            <a href="#about">
+                About
+            </a>
+
+            <a href="#services">
+                Services
+            </a>
+
+            <a href="#contact">
+                Contact
+            </a>
+
+        </div>
 
     </div>
 
-</section>
 
-<script src="script.js"></script>
+
+    <!-- =========================================
+         HERO
+    ========================================== -->
+
+    <main>
+
+        <section class="hero"
+                 id="home">
+
+            <!-- Decorative background -->
+            <div class="hero-glow"></div>
+
+
+            <!-- Hero top label -->
+            <div class="hero-top">
+
+                <span class="eyebrow reveal">
+                    NEW ZEALAND BASED
+                </span>
+
+                <span class="hero-index reveal">
+                    01 / 05
+                </span>
+
+            </div>
+
+
+            <!-- Main hero content -->
+            <div class="hero-content">
+
+
+                <div class="hero-copy">
+
+                    <p class="hero-kicker reveal">
+                        BEAUTY CREATOR
+                        <span>•</span>
+                        MAKEUP ARTIST
+                    </p>
+
+
+                    <h1 class="hero-title">
+
+                        <span class="title-line reveal">
+                            BEAUTY
+                        </span>
+
+                        <span class="title-line title-indent reveal">
+                            THAT
+                        </span>
+
+                        <span class="title-line title-italic reveal">
+                            STAYS.
+                        </span>
+
+                    </h1>
+
+
+                    <div class="hero-bottom">
+
+                        <p class="hero-description reveal">
+
+                            Creating beauty looks,
+                            visual stories and content
+                            designed to be remembered.
+
+                        </p>
+
+
+                        <a href="#work"
+                           class="hero-button magnetic">
+
+                            <span>
+                                Explore Work
+                            </span>
+
+                            <span class="button-arrow">
+                                ↓
+                            </span>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- HERO IMAGE -->
+
+                <div class="hero-visual reveal-scale">
+
+                    <div class="hero-image-wrap">
+
+                        <img
+                            src="hero.jpg"
+                            alt="Navu Beauty Artist"
+                            class="hero-image"
+                        >
+
+                        <div class="image-overlay"></div>
+
+                    </div>
+
+
+                    <!-- Floating label -->
+
+                    <div class="floating-card">
+
+                        <span class="floating-number">
+                            01
+                        </span>
+
+                        <span class="floating-text">
+                            BRIDAL
+                            <br>
+                            BEAUTY
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Hero footer -->
+
+            <div class="hero-footer">
+
+                <span>
+                    SCROLL TO EXPLORE
+                </span>
+
+                <div class="scroll-line">
+                    <span></span>
+                </div>
+
+                <span>
+                    ↓
+                </span>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================================
+             MOVING MARQUEE
+        ========================================== -->
+
+        <section class="marquee-section">
+
+            <div class="marquee">
+
+                <div class="marquee-track">
+
+                    <span>
+                        BEAUTY
+                    </span>
+
+                    <i>✦</i>
+
+                    <span>
+                        CONTENT
+                    </span>
+
+                    <i>✦</i>
+
+                    <span>
+                        CONFIDENCE
+                    </span>
+
+                    <i>✦</i>
+
+                    <span>
+                        CREATIVITY
+                    </span>
+
+                    <i>✦</i>
+
+
+                    <!-- Duplicate for infinite animation -->
+
+                    <span>
+                        BEAUTY
+                    </span>
+
+                    <i>✦</i>
+
+                    <span>
+                        CONTENT
+                    </span>
+
+                    <i>✦</i>
+
+                    <span>
+                        CONFIDENCE
+                    </span>
+
+                    <i>✦</i>
+
+                    <span>
+                        CREATIVITY
+                    </span>
+
+                    <i>✦</i>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================================
+             INTRO / STATEMENT
+        ========================================== -->
+
+        <section class="intro-section"
+                 id="about">
+
+            <div class="section-label">
+
+                <span>
+                    02
+                </span>
+
+                <span>
+                    THE VISION
+                </span>
+
+            </div>
+
+
+            <div class="intro-content">
+
+                <h2 class="intro-title reveal-text">
+
+                    Makeup is not
+                    <em>just</em> makeup.
+
+                </h2>
+
+
+                <div class="intro-right">
+
+                    <p class="intro-description reveal">
+
+                        It's the confidence
+                        someone feels when they
+                        look in the mirror and
+                        recognise their best self.
+
+                    </p>
+
+
+                    <p class="intro-description reveal">
+
+                        From soft glam to
+                        statement bridal looks,
+                        every face becomes a
+                        canvas for something
+                        unforgettable.
+
+                    </p>
+
+
+                    <a href="#contact"
+                       class="text-link">
+
+                        Discover the story
+
+                        <span>
+                            ↗
+                        </span>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================================
+             LARGE IMAGE BREAK
+        ========================================== -->
+
+        <section class="image-break">
+
+            <div class="image-break-inner">
+
+                <img
+                    src="beauty-makeup.jpg"
+                    alt="Beauty Makeup"
+                >
+
+                <div class="image-break-overlay"></div>
+
+
+                <div class="image-break-text">
+
+                    <span>
+                        BEAUTY
+                    </span>
+
+                    <span>
+                        IN
+                    </span>
+
+                    <span>
+                        DETAIL
+                    </span>
+
+                </div>
+
+            </div>
+
+        </section>
+        <!-- =========================================
+             PORTFOLIO
+        ========================================== -->
+
+        <section class="portfolio-section"
+                 id="work">
+
+            <div class="section-label">
+
+                <span>
+                    03
+                </span>
+
+                <span>
+                    SELECTED WORK
+                </span>
+
+            </div>
+
+
+            <div class="portfolio-grid">
+
+                <div class="portfolio-card">
+
+                    <img
+                        src="bridal-makeup.jpg"
+                        alt="Bridal Makeup"
+                    >
+
+                    <div class="portfolio-overlay">
+
+                        <h3>
+                            Bridal Makeup
+                        </h3>
+
+                    </div>
+
+                </div>
+
+
+                <div class="portfolio-card">
+
+                    <img
+                        src="engagement-makeup.jpg"
+                        alt="Engagement Makeup"
+                    >
+
+                    <div class="portfolio-overlay">
+
+                        <h3>
+                            Engagement Look
+                        </h3>
+
+                    </div>
+
+                </div>
+
+
+                <div class="portfolio-card">
+
+                    <img
+                        src="reception-makeup.jpg"
+                        alt="Reception Makeup"
+                    >
+
+                    <div class="portfolio-overlay">
+
+                        <h3>
+                            Reception Glam
+                        </h3>
+
+                    </div>
+
+                </div>
+
+
+                <div class="portfolio-card">
+
+                    <img
+                        src="party-makeup.jpg"
+                        alt="Party Makeup"
+                    >
+
+                    <div class="portfolio-overlay">
+
+                        <h3>
+                            Party Glam
+                        </h3>
+
+                    </div>
+
+                </div>
+
+
+                <div class="portfolio-card">
+
+                    <img
+                        src="soft-glam-makeup.jpg"
+                        alt="Soft Glam"
+                    >
+
+                    <div class="portfolio-overlay">
+
+                        <h3>
+                            Soft Glam
+                        </h3>
+
+                    </div>
+
+                </div>
+
+
+                <div class="portfolio-card">
+
+                    <img
+                        src="hd-makeup.jpg"
+                        alt="HD Makeup"
+                    >
+
+                    <div class="portfolio-overlay">
+
+                        <h3>
+                            HD Makeup
+                        </h3>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================================
+             BIG STATEMENT
+        ========================================== -->
+
+        <section class="statement-section">
+
+            <h2>
+
+                NOT JUST
+                <br>
+
+                MAKEUP.
+
+                <br>
+
+                AN EXPERIENCE.
+
+            </h2>
+
+        </section>
+
+
+
+        <!-- =========================================
+             STATS
+        ========================================== -->
+
+        <section class="stats-section">
+
+            <div class="stat">
+
+                <span class="stat-number">
+                    1700+
+                </span>
+
+                <span class="stat-label">
+                    Followers
+                </span>
+
+            </div>
+
+
+            <div class="stat">
+
+                <span class="stat-number">
+                    140+
+                </span>
+
+                <span class="stat-label">
+                    Beauty Contents
+                </span>
+
+            </div>
+
+
+            <div class="stat">
+
+                <span class="stat-number">
+                    NZ
+                </span>
+
+                <span class="stat-label">
+                    Based Creator
+                </span>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================================
+             SERVICES
+        ========================================== -->
+
+        <section class="services-section"
+                 id="services">
+
+            <div class="section-label">
+
+                <span>
+                    04
+                </span>
+
+                <span>
+                    SERVICES
+                </span>
+
+            </div>
+
+
+            <div class="services-grid">
+
+                <div class="service-card">
+
+                    <h3>
+                        Bridal Makeup
+                    </h3>
+
+                    <p>
+                        Luxury bridal beauty
+                        tailored for your day.
+                    </p>
+
+                </div>
+
+
+                <div class="service-card">
+
+                    <h3>
+                        Content Creation
+                    </h3>
+
+                    <p>
+                        Social content designed
+                        to stop the scroll.
+                    </p>
+
+                </div>
+
+
+                <div class="service-card">
+
+                    <h3>
+                        Brand Collaborations
+                    </h3>
+
+                    <p>
+                        Creative campaigns with
+                        premium visual impact.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================================
+             CONTACT CTA
+        ========================================== -->
+
+        <section class="contact-section"
+                 id="contact">
+
+            <div class="contact-inner">
+
+                <span class="contact-small">
+                    LET'S CREATE SOMETHING BEAUTIFUL
+                </span>
+
+                <h2>
+
+                    Ready To Work
+                    Together?
+
+                </h2>
+
+                <a href="#"
+                   class="contact-button">
+
+                    Book A Collaboration
+
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <script src="script.js"></script>
 
 </body>
+
 </html>
