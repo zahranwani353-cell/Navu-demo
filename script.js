@@ -173,27 +173,18 @@ color:#d4af37;
 
 @media(max-width:900px){
 
-.menu-btn{
-display:block;
-}
+const menuBtn =
+document.getElementById("menu-btn");
 
-.nav-links{
-display:none;
-flex-direction:column;
-position:absolute;
-top:100px;
-left:20px;
-right:20px;
-padding:20px;
-border-radius:20px;
-background:rgba(15,15,15,.95);
-backdrop-filter:blur(20px);
-gap:15px;
-text-align:center;
-}
+const navLinks =
+document.getElementById("nav-links");
 
-.nav-links.active{
-display:flex;
-}
+if(menuBtn && navLinks){
+
+menuBtn.addEventListener("click",()=>{
+
+navLinks.classList.toggle("active");
+
+});
 
 }
