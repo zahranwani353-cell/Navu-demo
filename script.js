@@ -98,3 +98,35 @@ window.addEventListener("scroll", () => {
   }
 
 });
+// HERO FADE
+
+window.addEventListener("load",()=>{
+
+const hero =
+document.querySelector(".hero-content");
+
+if(hero){
+
+hero.animate(
+
+[
+{
+opacity:0,
+transform:"translateY(50px)"
+},
+{
+opacity:1,
+transform:"translateY(0)"
+}
+],
+
+{
+duration:1200,
+easing:"ease-out"
+}
+
+);
+
+}
+
+});
