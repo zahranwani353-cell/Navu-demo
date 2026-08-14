@@ -130,3 +130,37 @@ easing:"ease-out"
 }
 
 });
+
+const roles = [
+
+"Bridal Specialist",
+"Luxury Makeup Artist",
+"Content Creator",
+"Beauty Influencer",
+"Wedding Glam Expert"
+
+];
+
+let currentRole = 0;
+
+setInterval(() => {
+
+const roleElement =
+document.getElementById("changing-role");
+
+if(roleElement){
+
+currentRole++;
+
+if(currentRole >= roles.length){
+
+currentRole = 0;
+
+}
+
+roleElement.textContent =
+roles[currentRole];
+
+}
+
+},2000);
