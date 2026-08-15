@@ -173,18 +173,3 @@ color:#d4af37;
 
 @media(max-width:900px){
 
-const menuBtn =
-document.getElementById("menu-btn");
-
-const navLinks =
-document.getElementById("nav-links");
-
-if(menuBtn && navLinks){
-
-menuBtn.addEventListener("click",()=>{
-
-navLinks.classList.toggle("active");
-
-});
-
-}
