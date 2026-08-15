@@ -12,6 +12,11 @@ window.addEventListener("load", () => {
             preloader.style.opacity = "0";
 
             preloader.style.pointerEvents = "none";
+            setTimeout(() => {
+
+    preloader.style.display = "none";
+
+}, 1200);
 
         },1000);
 
