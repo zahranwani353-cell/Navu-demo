@@ -682,7 +682,37 @@ display:none;
 font-size:30px;
 cursor:pointer;
 color:#d4af37;
+background:none;
+border:none;
 }
 
 @media(max-width:900px){
 
+.menu-btn{
+display:block;
+}
+
+.nav-links{
+display:none;
+flex-direction:column;
+position:absolute;
+top:90px;
+left:20px;
+right:20px;
+padding:20px;
+border-radius:20px;
+background:rgba(15,15,15,.95);
+backdrop-filter:blur(20px);
+gap:15px;
+text-align:center;
+}
+
+.nav-links.active{
+display:flex;
+}
+
+.nav-cta{
+display:none;
+}
+
+}
