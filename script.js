@@ -159,12 +159,3 @@ roles[currentRole];
 }
 
 },2000);
-.menu-btn{
-display:none;
-font-size:30px;
-cursor:pointer;
-color:#d4af37;
-}
-
-@media(max-width:900px){
-
