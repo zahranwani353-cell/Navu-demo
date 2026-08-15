@@ -2,29 +2,19 @@
 
 window.addEventListener("load", () => {
 
-    const preloader =
-        document.querySelector(".preloader");
+    const preloader = document.querySelector(".preloader");
 
     if(preloader){
 
+        preloader.style.opacity = "0";
+
         setTimeout(() => {
-
-            preloader.style.opacity = "0";
-
-            preloader.style.pointerEvents = "none";
-            setTimeout(() => {
-
-    preloader.style.display = "none";
-
-}, 1200);
-
-        },1000);
+            preloader.remove();
+        }, 1000);
 
     }
 
 });
-
-
 
 // REVEAL ANIMATION
 
